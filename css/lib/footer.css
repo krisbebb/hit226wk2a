@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer a {
+  color: #B3E5FC;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  text-decoration: underline;
+}

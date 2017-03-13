@@ -1,0 +1,62 @@
+.heading__text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /** Image attribution: https://www.pexels.com/photo/italian-landscape-mountains-nature-1562/ */
+  background-image: url(../../images/landscape-mountains-nature-lake.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.heading__title,
+.heading__tagline {
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.37);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  /* clear floats */
+}
+
+.nav__link {
+  /* Style as buttons */
+  display: block;
+  background-color: #E64A19;
+  text-decoration: none;
+  color: white;
+  padding: 10px 24px;
+  transition: background-color 100ms;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  background-color: #F4511E;
+}
+
+.nav__link:active {
+  background-color: #FF5722;
+}
+
+.nav__logo {
+  float: left;
+}
+
+.nav__item {
+  float: left;
+}
+
+.nav__list {
+  float: right;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  /*remove default ul styles*/
+  list-style-type: none;
+  padding-left: 0;
+}
